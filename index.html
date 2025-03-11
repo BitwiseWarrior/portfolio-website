@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -89,6 +90,13 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
+        footer {
+            background: #2a2a72;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
@@ -97,6 +105,8 @@
         <nav>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications</a>
             <a href="#contact">Contact</a>
         </nav>
     </header>
@@ -109,19 +119,35 @@
         
         <div class="section" id="projects">
             <h2>Projects</h2>
-            <p><strong>Project 1:</strong> A simple to-do list app.</p>
-            <p><strong>Project 2:</strong> Portfolio website (this one!).</p>
+            <p><strong>Project 1:</strong> A simple to-do list app. <a href="https://github.com/BitwiseWarrior/To-Do-List-App" target="_blank">[GitHub Repository]</a></p>
+            <p><strong>Project 2:</strong> Portfolio website (this one!). <a href="https://github.com/BitwiseWarrior/Portfolio-Website" target="_blank">[GitHub Repository]</a></p>
+        </div>
+        
+        <div class="section" id="skills">
+            <h2>Skills</h2>
+            <p><strong>Programming Languages:</strong> Java, C++, Python</p>
+            <p><strong>Web Development:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Tools:</strong> Git, VS Code, MS Office</p>
+        </div>
+        
+        <div class="section" id="certifications">
+            <h2>Certifications</h2>
+            <p><strong>HackerRank Software Engineer Certificate:</strong> <a href="https://www.hackerrank.com/certificates/b69f4ea46e47" target="_blank">View Certificate</a></p>
         </div>
         
         <div class="section" id="contact">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:jayeshchaudhari717@gmail.com">jayeshchaudhari717@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/BitwiseWarrior" target="_blank">github.com/BitwiseWarrior</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/jayesh-chaudhari-7b0613287/" target="_blank">linkedin.com/in/jayesh-chaudhari-7b0613287</a></p>
+            <p>Email: <a href="mailto:jayeshchaudhari717@gmail.com"><i class="fas fa-envelope"></i> jayeshchaudhari717@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/BitwiseWarrior" target="_blank"><i class="fab fa-github"></i> github.com/BitwiseWarrior</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jayesh-chaudhari-7b0613287/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/jayesh-chaudhari-7b0613287</a></p>
             
-            <!-- Resume Download Button (Google Drive) -->
-            <a href="https://drive.google.com/uc?export=download&id=1fYKa6xrdSIZrCq1JkwrqgGlTxa19llKJ" class="btn">Download Resume</a>
+            <!-- Resume Download Button -->
+            <a href="https://drive.google.com/uc?export=download&id=1fYKa6xrdSIZrCq1JkwrqgGlTxa19llKJ" download="Jayesh_Chaudhari_Resume.pdf" class="btn">Download Resume</a>
         </div>
     </div>
+
+    <footer>
+        © 2024 Jayesh Chaudhari. All rights reserved.
+    </footer>
 </body>
 </html>
